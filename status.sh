@@ -1264,3 +1264,4 @@ if [[ -n $action ]]; then
 else
   menu_server
 fi
+rm -rf /etc/network/if-pre-up.d/iptables
